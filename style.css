@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather:wght@700&display=swap');
+
+
+
+
+.wrapper_header {
+    background-color: black;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 20px;
+    top: 20px;
+}
+.nov_links{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    text-underline-position: auto;
+}
+.header_nav_link{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
