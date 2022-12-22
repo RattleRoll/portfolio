@@ -3,23 +3,103 @@
 
 
 
+.main_photo{
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 10%;
+bottom: 10%;
 
+background: black;
+}
 .wrapper_header {
-    background-color: black;
     position: absolute;
     width: 50px;
     height: 50px;
     left: 20px;
     top: 20px;
 }
-.nov_links{
-    display: flex;
-    align-items: center;
-    height: 100%;
-    text-underline-position: auto;
-}
+
 .header_nav_link{
-    text-decoration: none;
-    color: white;
-    margin-left: 20px;
+    position: absolute;
+    height: 50px;
+    left: 860px;
+    top: 0px; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+.header_nav_link_two{
+position: absolute;
+height: 50px;
+left: 939px;
+top: 0px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 50px;
+color: #FFFFFF;
+}
+.header_nav_link_three{
+    position: absolute;
+    height: 50px;
+    left: 1050px;
+    top: 0px; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+.header_nav_link_four{
+position: absolute;
+height: 50px;
+left: 1135px;
+top: 0px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 50px;
+color: #FFFFFF;
+}
+.header_nav_link_five{
+    position: absolute;
+    height: 50px;
+    left: 1213px;
+    top: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+.header_nav_link_six{
+    position: absolute;
+width: 25px;
+height: 50px;
+left: 1332px;
+top: 0px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 50px;
+text-align: center;
+color: #BDAE82;
+}
+.main_big{
+position: absolute;
+width: 1440px;
+height: 910px;
+left: 0px;
+top: 0px;
+
+background: url(header-bg.jpg)
 }
