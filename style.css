@@ -13,7 +13,11 @@ background: black;
 .wrapper_header {
     position: absolute;
     width: 1440px;
-    height: 890px;
+    height: 910px;
+    left: 0px;
+    top: 0px;
+    
+    background: url(header-bg.jpg);
 }
 
 .header_nav_link{
@@ -27,6 +31,8 @@ background: black;
     font-size: 20px;
     line-height: 50px;
     color: #FFFFFF;
+    margin-top: 21px;
+    margin-left: 20px;
 }
 .header_nav_link_two{
 position: absolute;
@@ -39,6 +45,8 @@ font-weight: 400;
 font-size: 20px;
 line-height: 50px;
 color: #FFFFFF;
+margin-top: 21px;
+margin-left: 20px;
 }
 .header_nav_link_three{
     position: absolute;
@@ -51,6 +59,8 @@ color: #FFFFFF;
     font-size: 20px;
     line-height: 50px;
     color: #FFFFFF;
+    margin-top: 21px;
+    margin-left: 20px;
 }
 .header_nav_link_four{
 position: absolute;
@@ -63,6 +73,8 @@ font-weight: 400;
 font-size: 20px;
 line-height: 50px;
 color: #FFFFFF;
+margin-top: 21px;
+margin-left: 20px;
 }
 .header_nav_link_five{
     position: absolute;
@@ -75,6 +87,8 @@ color: #FFFFFF;
     font-size: 20px;
     line-height: 50px;
     color: #FFFFFF;
+    margin-top: 21px;
+    margin-left: 20px;
 }
 .header_nav_link_six{
     position: absolute;
@@ -89,18 +103,17 @@ font-size: 20px;
 line-height: 50px;
 text-align: center;
 color: #BDAE82;
+margin-top: 21px;
+margin-left: 20px;
 }
 .main_big{
 position: static;
 width: 100%;
 height: 100%;
 
-
-background: url(header-bg.jpg)
 }
 .main_port{
-    position: absolute;
-height: 120px;
+ position: absolute;
 left: 0%;
 right: 6%;
 top: 130px;
@@ -110,7 +123,7 @@ font-weight: 400;
 font-size: 20px;
 line-height: 40px;
 color: #FFFFFF;
-width: 570px;
+width: 400px;
 margin-top: 126px;
 margin-left: 75px;
 }
@@ -121,8 +134,55 @@ h1{
 button{
     position: absolute;
     height: 60px;
-    width: 225px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
     background: #BDAE82;
     border-radius: 0px;
+    width: 225px;
     cursor: pointer;
+    margin-top: 270px;
+    margin-right: 5px;
+}
+.main_skills{
+    position: absolute;
+    width: 112px;
+    height: 80px;
+    background-color: black;
+  
+    font-family: 'Merriweather';
+    font-style: normal;
+    text-align: center;
+    
+    color: #BDAE82;
+    
+}
+.txt_main{
+font-family: 'Merriweather';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+color: #FFFFFF;
+bottom: 90px;
+
+}
+.main_txt_file{
+    position: absolute;
+    height: 120px;
+    left: 0%;
+    right: 6%;
+    top: 90px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    width: 400px;
+    
+
+    
+    
+    color: #FFFFFF;
+    
 }
